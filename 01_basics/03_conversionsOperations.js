@@ -55,10 +55,15 @@ let str2 = " Aliuraish"
 let str3 = str1 + str2
 //console.log(str3);
 
-let str4 = "1"
-let str5 = "2"
+//console.log(1 + "2");
+//console.log("1" + 2);
+//console.log("1" + 2 + 2); //If string first then everything will be string
+//console.log(1 + 2 + "2"); //If number first then everything will be number
+//console.log(3 + "4" + 5); 
 
-let str6 = str4 + str5
-console.log(str6);
+//console.log((3 + 4) * 5 % 3);
+//Write in brackets to know which operation will be performed first or code will be messy and not appreciated.
 
-let str7 = str4 + 2
+console.log(true);
+console.log(+true); //boolean to number
+console.log(+""); //string to number
