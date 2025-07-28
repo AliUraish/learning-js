@@ -79,4 +79,5 @@ let gameCounter = 100
 gameCounter++ //or can be written ++gameCounter
 console.log(gameCounter);
 
-
+//link for prefixes and postfixes study https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment
+//link for type conversions https://tc39.es/ecma262/multipage/abstract-operations.html
