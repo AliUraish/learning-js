@@ -64,6 +64,19 @@ let str3 = str1 + str2
 //console.log((3 + 4) * 5 % 3);
 //Write in brackets to know which operation will be performed first or code will be messy and not appreciated.
 
-console.log(true);
-console.log(+true); //boolean to number
-console.log(+""); //string to number
+//console.log(true);
+//console.log(+true); //boolean to number
+//console.log(+""); //string to number
+
+let num1, num2, num3
+num1 = num2 = num3 = 2 + 2 //bad practice
+console.log(num1);
+console.log(num2);
+console.log(num3);
+
+//prefix and postfix
+let gameCounter = 100
+gameCounter++ //or can be written ++gameCounter
+console.log(gameCounter);
+
+
